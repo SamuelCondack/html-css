@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(idroid.otf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    background-color: lightgreen;
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(to bottom, lightgreen, rgba(2, 100, 2, 0.795));
+    padding: 30px;
+    text-align: center;
+    padding: 50px 5px 5px 5px;
+    min-height: 150px;
+}
+
+header h1 {
+    margin-top: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+header p {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.418);
+    margin-bottom: 30px;
+}
+
+header nav {
+    text-align: left;
+    padding-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+
+header nav a:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    text-align: justify;
+    text-indent: 30px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 7px 1px 5px rgba(0, 0, 0, 0.200), -7px 1px 5px rgba(0, 0, 0, 0.200);
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    width: 50%;
+}
+
+section {
+    padding-top: 10px;
+}
+
+section h2 {
+    font-family: 'idroid';
+    margin: 0px 10px 0px 10px;
+    color: rgb(29, 104, 29);
+}
+
+section a {
+    font-weight: bolder;
+    color: green;
+    text-decoration: none;
+    background-color: rgba(144, 238, 144, 0.377);
+    padding: 2px;
+}
+
+section a:hover {
+    color: rgb(1, 58, 1);
+}
+
+section h3 {
+    font-family: 'idroid';
+    color: rgb(29, 104, 29);
+    background-image: linear-gradient(to right, rgba(100, 243, 100, 0.295), white);
+    margin: 0px 10px 0px 10px;
+}
+
+section p {
+    padding: 0px 10px 0px 10px;
+}
+
+section picture {
+    display: grid;
+    place-items: center;
+}
+
+.video {
+    background-color: rgb(67, 139, 67);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+section h4 {
+    color: white;
+    background-color: rgb(90, 194, 90);
+    border-radius: 20px 20px 0px 0px;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.281);
+}
+
+.h4-description {
+    background-color: rgb(208, 255, 208);
+    padding: 5px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 0px 0px 10px 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.281);
+}
+
+.h4-description ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+.h4-ending {
+    margin: 0px 10px 0px 10px;
+}
+
+footer p {
+    background-color: green;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    header nav a {
+        padding: 5px;
+    }
+  }
+
+  @media only screen and (max-width: 414px) {
+    header nav a {
+        margin: 0px;
+    }
+
+    .h4-description ul {
+        columns: 1;
+    }
+  }
